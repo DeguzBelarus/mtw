@@ -1,0 +1,101 @@
+aside {
+  width: 150px;
+  height: 1028px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 37.15px;
+  padding-left: 20.27px;
+  padding-right: 62.83px;
+  background-color: #bdbdbd;
+
+  .sort-text {
+    margin-bottom: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+  }
+
+  .sort-bycity-button {
+    width: 86.13px;
+    height: 24.12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background: #4b51ef;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    animation-name: manifestation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    span {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+
+  .sort-bycompany-button {
+    width: 105.39px;
+    height: 24.12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4b51ef;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    animation-name: manifestation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    span {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+
+  .back-button {
+    width: 105.39px;
+    height: 24.12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background: green;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    animation-name: manifestation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    span {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+    }
+  }
+}
+
+@keyframes manifestation {
+  100% {
+    opacity: 1;
+  }
+}

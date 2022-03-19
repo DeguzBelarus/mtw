@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.usercard-wrapper {
+  width: 420px;
+  height: 73px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 14px;
+  margin-left: 31px;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #f3f3f3;
+  border-radius: 8px;
+
+  p {
+    margin: 0;
+    margin-bottom: 7px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #a3a3a3;
+
+    span {
+      margin-left: 7px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 13px;
+      color: #000000;
+    }
+  }
+
+  .details-link {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4b51ef;
+    cursor: pointer;
+  }
+}

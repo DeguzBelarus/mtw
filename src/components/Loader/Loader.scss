@@ -1,0 +1,12 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50px) translateX(-50px);
+
+  .loading-text {
+    font-size: 30px;
+    font-weight: bolder;
+    color: orange;
+  }
+}

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.userslist-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+
+  main {
+    width: 665px;
+    margin-top: 19px;
+    margin-left: 34px;
+    background: #ffffff;
+
+    .userslist-paragraph {
+      margin-bottom: 17px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      color: #000000;
+    }
+
+    .usercount-paragraph {
+      width: 454px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #000000;
+      text-align: end;
+    }
+  }
+}
